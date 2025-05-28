@@ -1,0 +1,29 @@
+﻿# Ignore các thư mục build/output
+bin/
+obj/
+
+# Ignore các file cấu hình runtime
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore các file xuất phát từ VS dưới dạng cache
+.vs/
+*.psess
+*.vsp
+*.vspx
+*.scc
+
+# Ignore kết quả publish
+*.publish.xml
+
+# Cấu hình cho Rider/JetBrains
+.idea/
+*.sln.iml
+
+# Log
+*.log
+
+# Các thư mục test output
+TestResults/
